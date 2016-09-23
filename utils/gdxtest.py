@@ -11,16 +11,16 @@ class GdxTest(InputAdapter, ApplicationListener):
         raise NotImplementedError()
 
     def resume(self):
-        raise NotImplementedError()
+        pass
 
     def render(self):
         raise NotImplementedError()
 
     def resize(self, width, height):
-        raise NotImplementedError()
+        pass
 
     def pause(self):
-        raise NotImplementedError()
+        pass
 
     def dispose(self):
-        raise NotImplementedError()
+        pass
