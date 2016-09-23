@@ -1,16 +1,16 @@
 libgdx-jython-tests
-###################
+===================
 
 A port of the expansive libGDX test code to Jython, to help others interested in
 experimenting with Jython for more serious game development.
 
 Status:
-######
+-------
 
 Currently in the early stages, with one successful test running.
 
 Setup:
-######
+------
 
 1. Obtain the libGDX JARs (nightly builds can be found here):
 
