@@ -1,11 +1,5 @@
-import sys
-
-sys.path.append('../lib/gdx.jar')
-sys.path.append('../lib/gdx-backend-lwjgl.jar')
-sys.path.append('../lib/gdx-backend-lwjgl-natives.jar')
-sys.path.append('../lib/gdx-sources.jar')
-sys.path.append('../lib/lwjgl-natives.jar')
-sys.path.append('../lib/gdx-natives.jar')
+from utils.imp import imp
+imp('../lib/')
 
 from com.badlogic.gdx import Gdx
 from com.badlogic.gdx.graphics import GL20, Texture
