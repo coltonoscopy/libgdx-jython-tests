@@ -7,7 +7,7 @@ experimenting with Jython for more serious game development.
 Status:
 -------
 
-Currently in the early stages, with one successful test running.
+Handful of tests running; currently in the process of porting Box2D tests.
 
 Setup:
 ------
