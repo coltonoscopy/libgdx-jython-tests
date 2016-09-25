@@ -10,7 +10,7 @@ Handful of tests running; currently in the process of porting Box2D tests.
 
 ### Setup:
 
-1. Install Jython (Homebrew for Mac OS X works as well):
+1. Install Jython (```brew install jython``` for Mac OS X Homebrew works as well):
 
     - http://www.jython.org/downloads.html
 
@@ -23,4 +23,6 @@ Handful of tests running; currently in the process of porting Box2D tests.
 4. Reference said libs by appending them to sys.path at the start of any test you would
 like to run or create yourself! Examples include using a simple utility function.
 
-5. Profit.
+5. ```jython [test.py]```
+
+6. Profit.
